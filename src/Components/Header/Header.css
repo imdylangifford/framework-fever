@@ -1,0 +1,7 @@
+.headerContainer {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  background: #d8dad3;
+  color: #4a4a48;
+}

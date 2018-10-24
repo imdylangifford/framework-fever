@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
 }
 
 .App-logo {
@@ -21,12 +23,42 @@
 .App-link {
   color: #61dafb;
 }
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.imgcontainer {
+  width: auto;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-0.3.5&s=818f71d21a4e5100bc616bf89c341c99&auto=format&fit=crop&w=1050&q=80");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
 }
